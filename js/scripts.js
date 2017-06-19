@@ -1,4 +1,4 @@
-//Back-end part of the pigdice and its used to calculate the probabilities within pigdice//
+/Back-end part of the pigdice and its used to calculate the probabilities within pigdice//
 var Pig = {
   player1: 0,
   player2: 0,
