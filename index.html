@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<!--Beginning of header-->
+
+<head>
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <title>Pig Dice</title>
+</head>
+<!--End of header-->
+
+<!--Beginning of header-->
+
+<body>
+  <div class="jumbotron">
+    <div class="container">
+      <div class="image">
+        <h1>Pig Dice</h1>
+        <img src="https://ak6.picdn.net/shutterstock/videos/6017468/thumb/1.jpg" alt="dice" width =fit>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row" id="main">
+      <div class="wrapper">
+        <div class="col-md-4">
+          <h2 id="player1">Player 1</h2>
+          <h3>Score: <span id="player1score"></span></h3>
+          <h3>Wins: <span id="player1wins"></span></h3>
+          <div id="player1buttons">
+            <button id="roll" class="btn btn-large btn-danger">roll dice</button>
+              <button id="hold" class="btn btn-large btn-success">hold</button>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <h2>Roll: <span id = "dice"></span></h2>
+          <span id="displaydice"></span>
+          <h3>Current score: <span id="current"></span></h3>
+        </div>
+
+        <div class="col-md-4">
+          <h2 id="player2">Player 2</h2>
+          <h3>Score: <span id="player2score"></span></h3>
+          <h3>Wins: <span id="player2wins"></span></h3>
+          <div id="player2buttons">
+            <button id="roll" class="btn btn-large btn-danger">roll dice</button>
+            <button id="hold" class="btn btn-large btn-success">hold</button>
+          </div>
+        </div>
+        <div class="instructions">
+          <h4>Player one roll: "1"</h4>
+          <h4>Player two roll: "2"</h4>
+          <h4>Hold:            Space</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+<div>
+     <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/scripts.js"></script>
+    </div>
+</body>
+<!--Ending of the body-->
+
+</html>
